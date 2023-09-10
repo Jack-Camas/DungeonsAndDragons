@@ -10,6 +10,10 @@
 		0443218B2AAB7909001B9E54 /* startImage.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 044321892AAB72D3001B9E54 /* startImage.txt */; };
 		0443218D2AAB8B46001B9E54 /* bossImage.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0443218C2AAB89CD001B9E54 /* bossImage.txt */; };
 		0443218F2AAB8D11001B9E54 /* diceImage.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0443218E2AAB8C4E001B9E54 /* diceImage.txt */; };
+		0486ECF02AAD787B00E992F6 /* sliceAttack.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0486ECEF2AAD786800E992F6 /* sliceAttack.txt */; };
+		0486ECF22AAD899E00E992F6 /* winGame.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0486ECF12AAD88D100E992F6 /* winGame.txt */; };
+		0486ECF42AADAB6D00E992F6 /* leftRight.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0486ECF32AADAB2600E992F6 /* leftRight.txt */; };
+		0486ECF72AADAD1300E992F6 /* tunnel.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0486ECF62AADAD0700E992F6 /* tunnel.txt */; };
 		04B905512AAD38B200D707A6 /* gameOver.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04B905502AAD387700D707A6 /* gameOver.txt */; };
 		D27312812AA1ABFA0086EEE9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27312802AA1ABFA0086EEE9 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -21,6 +25,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				0486ECF72AADAD1300E992F6 /* tunnel.txt in CopyFiles */,
+				0486ECF42AADAB6D00E992F6 /* leftRight.txt in CopyFiles */,
+				0486ECF22AAD899E00E992F6 /* winGame.txt in CopyFiles */,
+				0486ECF02AAD787B00E992F6 /* sliceAttack.txt in CopyFiles */,
 				04B905512AAD38B200D707A6 /* gameOver.txt in CopyFiles */,
 				0443218F2AAB8D11001B9E54 /* diceImage.txt in CopyFiles */,
 				0443218D2AAB8B46001B9E54 /* bossImage.txt in CopyFiles */,
@@ -34,6 +42,10 @@
 		044321892AAB72D3001B9E54 /* startImage.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = startImage.txt; sourceTree = "<group>"; };
 		0443218C2AAB89CD001B9E54 /* bossImage.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = bossImage.txt; sourceTree = "<group>"; };
 		0443218E2AAB8C4E001B9E54 /* diceImage.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = diceImage.txt; sourceTree = "<group>"; };
+		0486ECEF2AAD786800E992F6 /* sliceAttack.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sliceAttack.txt; sourceTree = "<group>"; };
+		0486ECF12AAD88D100E992F6 /* winGame.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = winGame.txt; sourceTree = "<group>"; };
+		0486ECF32AADAB2600E992F6 /* leftRight.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = leftRight.txt; sourceTree = "<group>"; };
+		0486ECF62AADAD0700E992F6 /* tunnel.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = tunnel.txt; sourceTree = "<group>"; };
 		04B905502AAD387700D707A6 /* gameOver.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = gameOver.txt; sourceTree = "<group>"; };
 		D273127D2AA1ABFA0086EEE9 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27312802AA1ABFA0086EEE9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -70,10 +82,14 @@
 			isa = PBXGroup;
 			children = (
 				D27312802AA1ABFA0086EEE9 /* main.swift */,
+				0486ECF32AADAB2600E992F6 /* leftRight.txt */,
+				0486ECF12AAD88D100E992F6 /* winGame.txt */,
 				04B905502AAD387700D707A6 /* gameOver.txt */,
 				044321892AAB72D3001B9E54 /* startImage.txt */,
 				0443218C2AAB89CD001B9E54 /* bossImage.txt */,
 				0443218E2AAB8C4E001B9E54 /* diceImage.txt */,
+				0486ECEF2AAD786800E992F6 /* sliceAttack.txt */,
+				0486ECF62AADAD0700E992F6 /* tunnel.txt */,
 			);
 			path = test;
 			sourceTree = "<group>";
